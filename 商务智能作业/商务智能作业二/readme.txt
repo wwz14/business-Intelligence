@@ -1,0 +1,1 @@
+﻿如果要运行ETL抽取过程，则在ETL中的SQLcon.java中修改数据库用户名和密码，将sql文件导入数据库，运行eltmain.java，eltmain.java是先将数据仓库里的数据清空，在重新ETL抽取导入，ETL导入过程在starmodel 和snowmodel中。
